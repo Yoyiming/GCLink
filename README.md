@@ -18,3 +18,6 @@
 
 ## Data
 The source data format is illustrated in the "Specific Dataset" folder. The example data in the "Data" folder shows the results obtained after running `Train_Test_Split.py`.
+
+## Contact
+For any inquiries, feel free to raise issues or contact me via email at yoyiming7@gmail.com.
