@@ -227,7 +227,7 @@ if not os.path.exists(model_path):
 
 # Data Augmentation
 aug1 = A.Identity()
-aug2 = A.EdgeRemoving(pe=0.1)
+aug2 = A.EdgeRemoving(pe=0.2)
 
 # Pretrain encoder
 pre_epochs = 20
