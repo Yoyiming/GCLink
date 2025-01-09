@@ -278,6 +278,6 @@ else:
 
 AUC, AUPR, AUPR_norm = Evaluation(
     y_pred=score, y_true=test_data[:, -1], flag=args.flag)
-
+print(score)
 print('test_AUC:{:.3F}'.format(AUC), 'test_AUPR:{:.3F}'.format(AUPR))
 
