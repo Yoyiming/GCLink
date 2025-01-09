@@ -1,5 +1,5 @@
 # GCLink: A Graph Contrastive Link Prediction Framework for Gene Regulatory Network Inference
-
+![Network Structure](Figure/pipeline.png)
 ## Dependencies Used in This Project
 - Python 3.8.0
 - PyTorch 1.12.1
