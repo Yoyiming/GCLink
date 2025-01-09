@@ -30,10 +30,10 @@ Before running any scripts, set up the required environment using the provided `
      Replace `<network_type>` with the chosen network type and `<cell_type>` with the chosen cell type.
    - The files in folder `Data/Specific/mESC 1000/sample1` provide an example of the generated data for the mESC Specific network.
 3. **Run Inference**:
-   - Set `-cell_type` and `-sample` to infer. For example:
-  ```bash
-  python GCLink_main.py -cell_type mESC -sample sample1
-  ```
+   - Set specific **cell_type** and **sample** to infer. For example:
+     ```bash
+     python GCLink_main.py -cell_type mESC -sample sample1
+     ```
    - The output of the code includes:
      - **AUROC and AUPRC scores** for evaluation.
      - **Regulatory scores** for all test samples.
