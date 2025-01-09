@@ -49,7 +49,6 @@ Before running any scripts, set up the required environment using the provided `
      ```bash
      python transfer.py --cell_type hESC --sample sample1
      ```
-   - Replace `hESC` with the desired target cell type and `sample1` with the desired sample.
    - The output of the code includes:
      - **AUROC and AUPRC scores** for evaluation.
      - **Regulatory scores** for all test samples.
