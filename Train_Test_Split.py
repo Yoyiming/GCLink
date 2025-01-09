@@ -279,9 +279,9 @@ if __name__ == '__main__':
     net_type = args.net
     density = Network_Statistic(data_type=data_type, net_scale=args.num, net_type=net_type)
 
-    TF2file = os.getcwd() + '/' + net_type + ' Dataset/' + data_type + '/TFs+' + str(args.num) + '/TF.csv'
-    Gene2file = os.getcwd() + '/' + net_type + ' Dataset/' + data_type + '/TFs+' + str(args.num) + '/Target.csv'
-    label_file = os.getcwd() + '/' + net_type + ' Dataset/' + data_type + '/TFs+' + str(args.num) + '/Label.csv'
+    TF2file = os.getcwd() + '/Benchmark Datasets' + net_type + ' Dataset/' + data_type + '/TFs+' + str(args.num) + '/TF.csv'
+    Gene2file = os.getcwd() + '/Benchmark Datasets' + net_type + ' Dataset/' + data_type + '/TFs+' + str(args.num) + '/Target.csv'
+    label_file = os.getcwd() + '/Benchmark Datasets' + net_type + ' Dataset/' + data_type + '/TFs+' + str(args.num) + '/Label.csv'
 
     for i in range(5):
         path = os.getcwd() + '/Data/' + net_type + '/' + data_type + ' ' + str(args.num) + '/sample' + str(i+1)
