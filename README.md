@@ -53,3 +53,5 @@ Before running any scripts, set up the required environment using the provided `
    - The output of the code includes:
      - **AUROC and AUPRC scores** for evaluation.
      - **Regulatory scores** for all test samples.
+## Contact
+For any inquiries, feel free to raise issues or contact me via email at yoyiming7@gmail.com.
