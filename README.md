@@ -43,12 +43,14 @@ Before running any scripts, set up the required environment using the provided `
      ```bash
      python train_source.py
      ```
+   - We default to using the dataset with the most available labels, the **mESC Specific Network**.
    - The source model will be stored in the `model` folder.
 2. **Transfer to a target dataset**
    - Select a target dataset (e.g., `hESC`) and run the following command:
      ```bash
      python transfer.py --cell_type hESC --sample sample1
      ```
+   - The target dataset is generated in the same way as mentioned earlier. The example target dataset used is the hESC Specific dataset.
    - The output of the code includes:
      - **AUROC and AUPRC scores** for evaluation.
      - **Regulatory scores** for all test samples.
