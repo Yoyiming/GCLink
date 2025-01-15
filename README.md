@@ -20,6 +20,7 @@ Before running any scripts, set up the required environment using the provided `
    - The datasets used in this project are provided in the `Benchmark Datasets` folder. 
    - `BL--ExpressionData.csv` contains the gene expression matrix.
    - `BL--network.csv` contains the TF-Target interactions.
+   - In order to use your own data, you have to provide a network file and gene expression matrix file similar to the two files mentioned above.
 
 2. **Generate Training, Validation and Testing sets**:
    - First, determine the **network type** (`Specific`, `Non-Specific`, or `STRING`) and **cell type** to be used.
