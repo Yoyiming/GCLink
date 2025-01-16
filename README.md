@@ -44,7 +44,7 @@ Before running any scripts, set up the required environment using the provided `
      ```bash
      python train_source.py
      ```
-   - We default to using the dataset with the most available labels, the **mESC Specific Network**.
+   - We default to using the dataset with the most available labels, the **mESC Specific Network (TFs+1000)**.
    - The trained source model will be stored in the `model` folder.
 2. **Transfer to a target dataset**
    - Select a target dataset (e.g., `hESC`) and run the following command:
