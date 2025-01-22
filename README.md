@@ -17,7 +17,7 @@ Before running any scripts, set up the required environment using the provided `
      ```
 ### 2. Gene Regulatory Network Inference
 1. **Preparing for gene expression profiles and TF-Target interaction files**:
-   - The datasets used in this project are provided in the `Benchmark Datasets` folder. 
+   - The datasets used in this project are provided in the **`Benchmark Datasets`** folder. 
    - `BL--ExpressionData.csv` contains the gene expression matrix.
    - `BL--network.csv` contains the TF-Target interactions.
    - In order to use your own data, you have to provide a network file and gene expression matrix file similar to the two files mentioned above.
@@ -29,7 +29,7 @@ Before running any scripts, set up the required environment using the provided `
      python Train_Test_Split.py --net <network_type> --data <cell_type>
      ```
      Replace `<network_type>` with the chosen network type and `<cell_type>` with the chosen cell type.
-   - The files in folder `Data/Specific/mESC 1000/sample1` provide an example of the generated data for the mESC Specific network.
+   - The files in folder **`Data/Specific/mESC 1000/sample1`** provide an example of the generated data for the mESC Specific network.
 3. **Run Inference**:
    - Set specific **cell_type** and **sample** to infer. For example:
      ```bash
@@ -45,7 +45,7 @@ Before running any scripts, set up the required environment using the provided `
      python train_source.py
      ```
    - We default to using the dataset with the most available labels, the **mESC Specific Network (TFs+1000)**.
-   - The trained source model will be stored in the `model` folder.
+   - The trained source model will be stored in the **`model`** folder.
 2. **Transfer to a target dataset**
    - Select a target dataset (e.g., `hESC`) and run the following command:
      ```bash
