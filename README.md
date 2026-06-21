@@ -6,6 +6,7 @@
 - torch-scatter 2.1.0
 - torch-sparse 0.6.15
 - torch-geometric 2.3.1
+- pygcl 0.1.2
 
 ## Usage
 ### 1. Set Up Conda Environment
